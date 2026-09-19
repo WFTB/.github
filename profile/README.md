@@ -7,8 +7,6 @@
 ### War from the Backwoods
 2D RTS о современной войне: игрок берёт на себя руководство государством и ведёт военную кампанию. Без полной политико-экономической симуляции — акцент на военных решениях, управлении фронтом, логистике и оперативном планировании. Работает даже на слабых ПК за счёт простой 2D-графики.
 
-Стек: Godot 4.7 (.NET, GL Compatibility), C# / .NET 8, Git LFS.
-
 [`war-from-the-backwoods`](https://github.com/WFTB/war-from-the-backwoods)
 
 ### TerraViva
@@ -20,6 +18,14 @@
 Кроссплатформенное приложение для ведения тендеров: менеджеры отслеживают тендеры и дедлайны, инженеры отвечают на запросы по стоимости работ прямо с телефона, не дожидаясь, пока освободятся за компьютером.
 
 [`Automated-Tender-Flow-Management-System`](https://github.com/WFTB/Automated-Tender-Flow-Management-System)
+
+## Технологии
+
+**War from the Backwoods** — Godot 4.7 (.NET, GL Compatibility), C# / .NET 8, Git LFS
+
+**TerraViva** — конструкция и корпуса под 3D-печать, микроконтроллер и электроника (комплектующие уточняются), прошивка; стек финально не зафиксирован — проект ещё на стадии проектирования
+
+**Automated Tender Flow Management System** — Flutter (десктоп + мобильные клиенты), backend на NestJS/FastAPI (выбор в процессе), PostgreSQL, WebSocket, JWT, Docker
 
 ---
 
